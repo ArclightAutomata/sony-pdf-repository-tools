@@ -1,0 +1,50 @@
+{"id": "d050", "product": "KDL-32BX321/46BX421 BRAVIA LCD HDTV quick setup guide", "category": "flat_panel_or_projection", "relevant": "no", "edge": false, "note": "Path says Consumer CRT Manuals but text is an LCD TV"}
+{"id": "d051", "product": "GP-TRX grip remote controller/mini tripod for CCD-TR 8mm camcorders", "category": "other_product", "relevant": "no", "edge": true, "note": "Accessory made only for CCD-TR Video8 camcorders"}
+{"id": "d052", "product": "CDX-MP70 FM/AM CD car stereo", "category": "other_product", "relevant": "no", "edge": false, "note": "Car audio"}
+{"id": "d053", "product": "NWZ-B172/B173 Walkman MP3 player quick start guide", "category": "audio", "relevant": "no", "edge": false, "note": ""}
+{"id": "d054", "product": "HDR-CX560E/CX700E HD camcorder manual (Croatian)", "category": "video_camera", "relevant": "yes", "edge": true, "note": "Flash/HDD camcorder, no tape; text is very short (cover page only) but the model and 'Digitalni HD kamkorder' are clear"}
+{"id": "d055", "product": "ST-SE370/ST-SE570 FM/AM stereo tuner", "category": "audio", "relevant": "no", "edge": false, "note": ""}
+{"id": "d056", "product": "BVW-300A Betacam SP camcorder maintenance manual correction (TB 91-244)", "category": "video_camera", "relevant": "yes", "edge": false, "note": "Bulletin is filed under VTR; BVW-300A is a one-piece Betacam SP camcorder (lens diaphragm adjustment)"}
+{"id": "d057", "product": "OHB-T450WS / IF-708 cable adaptor board in BVP-550/570 broadcast cameras (TB 1999-019)", "category": "video_camera", "relevant": "yes", "edge": false, "note": "Camera bulletin; fix for video noise"}
+{"id": "d058", "product": "BKDV-205 serial interface option for DVR-20 D1 VTR (TB 92-376)", "category": "video_deck", "relevant": "yes", "edge": false, "note": "Option board installed in DVR-20 VTRs"}
+{"id": "d059", "product": "DRC-BT30 Bluetooth headphone receiver spec sheet", "category": "audio", "relevant": "no", "edge": false, "note": ""}
+{"id": "d060", "product": "HVR-A1U HDV camcorder $300 end-user rebate bulletin", "category": "video_camera", "relevant": "yes", "edge": true, "note": "Reseller rebate promotion, but about one specific HDV tape camcorder; could be seen as not_product_doc"}
+{"id": "d061", "product": "PCS-XG100/XG77 HD Visual Communication (videoconference) system manual (French)", "category": "other_product", "relevant": "no", "edge": true, "note": "Videoconferencing codec with PTZ camera; not clearly broadcast video gear"}
+{"id": "d062", "product": "STR-DA3200ES 7.1 channel A/V receiver spec sheet", "category": "audio", "relevant": "no", "edge": false, "note": ""}
+{"id": "d063", "product": "GSA sales support rebate program bulletin 05-0056", "category": "not_product_doc", "relevant": "no", "edge": false, "note": "Reseller/government rebate program, no specific product"}
+{"id": "d064", "product": "SBH54 stereo Bluetooth headset (Portuguese)", "category": "audio", "relevant": "no", "edge": false, "note": "Sony Mobile headset with display/FM radio"}
+{"id": "d065", "product": "VAIO VPCE series notebook user guide", "category": "computer", "relevant": "no", "edge": false, "note": ""}
+{"id": "d066", "product": "VPL-HS10 LCD projector installation/use notes (multilingual)", "category": "flat_panel_or_projection", "relevant": "no", "edge": false, "note": ""}
+{"id": "d067", "product": "DSR-2000 DVCAM VTR software upgrade v1.25 (TB 2000-206)", "category": "video_deck", "relevant": "yes", "edge": false, "note": ""}
+{"id": "d068", "product": "D-FJ041 CD Walkman with tuner spec sheet", "category": "audio", "relevant": "no", "edge": false, "note": ""}
+{"id": "d069", "product": "DSR-400/450WS/600/650WS DVCAM camcorders shoulder pad bulletin (TB 30-2006-144)", "category": "video_camera", "relevant": "yes", "edge": false, "note": ""}
+{"id": "d070", "product": "SA-VE2M micro satellite 5.1 speaker system (NL/ES/SE/PL)", "category": "audio", "relevant": "no", "edge": false, "note": ""}
+{"id": "d071", "product": "DSR-300/300P DVCAM camcorder capacitor fix (TB 2000-122)", "category": "video_camera", "relevant": "yes", "edge": false, "note": "Filed under VTR, but DSR-300 is a DVCAM camcorder (CCD unit removal)"}
+{"id": "d072", "product": "DXC-D30/D35 cameras, DSR-130 and PVW-D30 camcorders DC-DC converter bulletin (TB 30-2002-056)", "category": "video_camera", "relevant": "yes", "edge": false, "note": ""}
+{"id": "d073", "product": "VPL-CS3/CS4/CX2/CX3/CX4 projectors high-altitude bulletin", "category": "flat_panel_or_projection", "relevant": "no", "edge": false, "note": ""}
+{"id": "d074", "product": "KD-65S9000B/75S9000B LCD TV reference guide (Hong Kong)", "category": "flat_panel_or_projection", "relevant": "no", "edge": false, "note": "Path says Consumer CRT Manuals but text is an LCD TV"}
+{"id": "d075", "product": "AD7476ART 12-bit A/D converter IC pinout page", "category": "other_product", "relevant": "no", "edge": false, "note": "Semiconductor pinout sheet from a service-doc set; the host Sony product is not named"}
+{"id": "d076", "product": "PVM-4300 45in Trinitron color video monitor", "category": "crt_monitor", "relevant": "yes", "edge": false, "note": "45in Black Trinitron tube stated in specs"}
+{"id": "d077", "product": "KV-SZ292/KV-SZ252 Trinitron color TV", "category": "crt_tv", "relevant": "yes", "edge": false, "note": "Picture tube sizes 72/64 cm"}
+{"id": "d078", "product": "HSC-300/HXC-100 HD studio cameras and HSCU-300/HXCU-100 CCUs triax harness manual correction", "category": "video_camera", "relevant": "yes", "edge": false, "note": ""}
+{"id": "d079", "product": "SRS-Z30 active speaker system", "category": "audio", "relevant": "no", "edge": false, "note": ""}
+{"id": "d080", "product": "PEG-N760C CLIE handheld (Palm OS PDA) read this first", "category": "computer", "relevant": "no", "edge": false, "note": ""}
+{"id": "d081", "product": "Digital IC voice recorder (SRS-T1 optional speakers)", "category": "audio", "relevant": "no", "edge": false, "note": "Model number of the recorder itself not in the excerpt"}
+{"id": "d082", "product": "MHS-TS10/TS20 Mobile HD Snap Camera (Bloggie) important notice", "category": "video_camera", "relevant": "yes", "edge": true, "note": "Pocket flash-memory HD video camera, no tape; document is a regulatory notice leaflet"}
+{"id": "d083", "product": "Xperia Z3 Tablet Compact SGP611/SGP612 user guide (Russian)", "category": "computer", "relevant": "no", "edge": false, "note": ""}
+{"id": "d084", "product": "AC-LS1 AC adaptor for Cyber-shot DSC-P series", "category": "other_product", "relevant": "no", "edge": false, "note": "Accessory for digital still cameras"}
+{"id": "d085", "product": "VGN-N385E/W VAIO N series notebook spec sheet", "category": "computer", "relevant": "no", "edge": false, "note": ""}
+{"id": "d086", "product": "SU-WL450 wall-mount bracket installation info for KD-55X8005C/49X8005C LCD TVs", "category": "other_product", "relevant": "no", "edge": false, "note": "Accessory for LCD TVs"}
+{"id": "d087", "product": "DSLR-A300/A350 digital SLR camera instruction manual", "category": "still_camera", "relevant": "no", "edge": false, "note": ""}
+{"id": "d088", "product": "TCM-500DV standard cassette voice recorder spec sheet", "category": "audio", "relevant": "no", "edge": false, "note": "Audio cassette, not video"}
+{"id": "d089", "product": "ILCE-7M3 a7 III interchangeable-lens camera help guide (French)", "category": "still_camera", "relevant": "no", "edge": false, "note": ""}
+{"id": "d090", "product": "MSW-A2000/MSW-M2000 MPEG IMX VTRs PLL fix (TB 2002-012)", "category": "video_deck", "relevant": "yes", "edge": false, "note": ""}
+{"id": "d091", "product": "MPK-WH underwater housing for a camera, mode-dial setup flyer", "category": "other_product", "relevant": "no", "edge": false, "note": "Marine pack accessory; text says camera/fotocamera, most likely a Cyber-shot still camera"}
+{"id": "d092", "product": "VPL-VW100 Full HD SXRD projector price adjustment bulletin", "category": "flat_panel_or_projection", "relevant": "no", "edge": false, "note": "Pricing bulletin for a specific projector"}
+{"id": "d093", "product": "UWP-X8 wireless microphone packages introduction/discontinuation bulletin", "category": "audio", "relevant": "no", "edge": false, "note": "Pro audio wireless mic"}
+{"id": "d094", "product": "GXD-L52H1 52in LCD digital signage display introduction bulletin", "category": "flat_panel_or_projection", "relevant": "no", "edge": false, "note": ""}
+{"id": "d095", "product": "XM-2100GTX car power amplifier (Spanish/Chinese)", "category": "other_product", "relevant": "no", "edge": false, "note": "Car audio"}
+{"id": "d096", "product": "DVR-20 D1 digital VTR audio level meter fix (TB 92-170)", "category": "video_deck", "relevant": "yes", "edge": false, "note": ""}
+{"id": "d097", "product": "XR-C33R cassette car stereo installation/connections", "category": "other_product", "relevant": "no", "edge": false, "note": "Car audio"}
+{"id": "d098", "product": "PCGA-BP71A rechargeable battery pack for VAIO notebooks", "category": "other_product", "relevant": "no", "edge": false, "note": "Laptop battery accessory"}
+{"id": "d099", "product": "MEX-BT2600 Bluetooth car audio quick guide", "category": "other_product", "relevant": "no", "edge": false, "note": "Car audio"}

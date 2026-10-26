@@ -1,0 +1,3 @@
+# Only needed for the live sony.com re-download (live/fetch_live.py, live/probe.py).
+# The rest of the pipeline uses the standard library plus the system tools listed in README.md.
+patchright>=1.63

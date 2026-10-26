@@ -1,0 +1,50 @@
+{"id": "d000", "product": "ECM-AW3 wireless microphone (Bluetooth mic/receiver for camcorders and IC recorders)", "category": "audio", "relevant": "no", "edge": false, "note": "General-purpose wireless mic; mentions camcorders as one of several recording devices"}
+{"id": "d001", "product": "HDW-700/700A HDCAM camcorder with HDCA-701 adaptor (technical bulletin)", "category": "video_camera", "relevant": "yes", "edge": false, "note": ""}
+{"id": "d002", "product": "UCP-8060 universal control panel for MVS-8000 switcher system (installation manual)", "category": "broadcast_video_other", "relevant": "yes", "edge": true, "note": "Control panel for a digital SD/HD multi-format production switcher"}
+{"id": "d003", "product": "VGN-NR160E/S VAIO NR notebook PC spec sheet", "category": "computer", "relevant": "no", "edge": false, "note": ""}
+{"id": "d004", "product": "F65PAC1 (F65 CineAlta digital cinema camera package) discontinuation memo", "category": "video_camera", "relevant": "yes", "edge": true, "note": "Dealer memo with little text; F65 is a file-based digital cinema camera, no tape"}
+{"id": "d005", "product": "MDR-IF420RK/MDR-IF520RK cordless infrared stereo headphones", "category": "audio", "relevant": "no", "edge": false, "note": ""}
+{"id": "d006", "product": "SXRD 4K projectors SRX-R105/R110 and accessories pricing bulletin", "category": "flat_panel_or_projection", "relevant": "no", "edge": false, "note": ""}
+{"id": "d007", "product": "KDL-40SL150 40in BRAVIA LCD TV spec sheet", "category": "flat_panel_or_projection", "relevant": "no", "edge": false, "note": ""}
+{"id": "d008", "product": "DNW-A22/A30/A45/A50 Betacam SX VTRs (technical bulletin, drum assembly)", "category": "video_deck", "relevant": "yes", "edge": false, "note": ""}
+{"id": "d009", "product": "DCR-SX40/SX41/SX60 Handycam flash-memory camcorders (Spanish handbook)", "category": "video_camera", "relevant": "yes", "edge": true, "note": "Memory-card/internal-flash camcorder, no tape"}
+{"id": "d010", "product": "BDV-E780W/E580/E380/T58 Blu-ray home theater system speaker wall-mount guide (PT/TR)", "category": "disc_or_media_player", "relevant": "no", "edge": false, "note": "Speaker installation sheet for a BD home theater system; could also be audio"}
+{"id": "d011", "product": "VPL-FE110U/M LCD projector (technical bulletin, polarizers)", "category": "flat_panel_or_projection", "relevant": "no", "edge": false, "note": ""}
+{"id": "d012", "product": "CDX-RA750 car CD player installation/connections", "category": "other_product", "relevant": "no", "edge": false, "note": "Car audio"}
+{"id": "d013", "product": "PCG-FXA33 VAIO notebook user guide", "category": "computer", "relevant": "no", "edge": false, "note": ""}
+{"id": "d014", "product": "XR-1890 FM/AM cassette car stereo", "category": "other_product", "relevant": "no", "edge": false, "note": "Car audio"}
+{"id": "d015", "product": "Security Systems IT distributor discount change bulletin", "category": "not_product_doc", "relevant": "no", "edge": true, "note": "Pricing policy only; Sony Security Systems line includes CCTV cameras but no product named"}
+{"id": "d016", "product": "SVT13114GXS VAIO T Series Ultrabook spec sheet", "category": "computer", "relevant": "no", "edge": false, "note": ""}
+{"id": "d017", "product": "ICD-37/57/67 IC recorder", "category": "audio", "relevant": "no", "edge": false, "note": ""}
+{"id": "d018", "product": "DVR-20/C20/20P/28/28P D-2 digital VTRs (manual correction, drum tool)", "category": "video_deck", "relevant": "yes", "edge": false, "note": ""}
+{"id": "d019", "product": "DVR-28P D-2 digital VTR (manual correction, specifications)", "category": "video_deck", "relevant": "yes", "edge": false, "note": ""}
+{"id": "d020", "product": "RCP-3621A camera remote control panel (technical bulletin)", "category": "video_camera", "relevant": "yes", "edge": true, "note": "Remote control panel accessory for broadcast cameras, not a camera itself"}
+{"id": "d021", "product": "MVS-8000/8000SF multi-format switcher system user's guide vol. 2", "category": "broadcast_video_other", "relevant": "yes", "edge": true, "note": "Digital SD/HD multi-format production switcher"}
+{"id": "d022", "product": "RM-B750 camera remote control unit (manual correction)", "category": "video_camera", "relevant": "yes", "edge": true, "note": "Remote control accessory for broadcast/pro cameras"}
+{"id": "d023", "product": "Xperia Z3 Tablet Compact SGP611/SGP612 user guide (Greek)", "category": "computer", "relevant": "no", "edge": false, "note": "Quality flagged garbage but text is clean Greek; model named at end"}
+{"id": "d024", "product": "VAIO VPCSA/SB/SC/SE series notebook user guide (Spanish)", "category": "computer", "relevant": "no", "edge": false, "note": ""}
+{"id": "d025", "product": "PMW-200 XDCAM HD422 memory camcorder introduction / PMW-EX1R discontinuation", "category": "video_camera", "relevant": "yes", "edge": true, "note": "SxS solid-state memory camcorders, no tape"}
+{"id": "d026", "product": "ILCA-77M2 A-mount interchangeable-lens digital camera", "category": "still_camera", "relevant": "no", "edge": false, "note": ""}
+{"id": "d027", "product": "VPL-CS/CX/EX/FX/PS/PX series projectors (technical bulletin, no power-on)", "category": "flat_panel_or_projection", "relevant": "no", "edge": false, "note": ""}
+{"id": "d028", "product": "DXF-51 electronic viewfinder (manual correction)", "category": "video_camera", "relevant": "yes", "edge": true, "note": "CRT viewfinder accessory for pro/broadcast video cameras"}
+{"id": "d029", "product": "Xperia Ear Duo XEA20 wireless earbuds (Turkish)", "category": "audio", "relevant": "no", "edge": false, "note": ""}
+{"id": "d030", "product": "2008 Pro Audio distributor demo program promotion", "category": "not_product_doc", "relevant": "no", "edge": false, "note": "Dealer program for pro audio, no specific product"}
+{"id": "d031", "product": "SVT141290X VAIO T Series Touch Ultrabook spec sheet", "category": "computer", "relevant": "no", "edge": false, "note": ""}
+{"id": "d032", "product": "WH-CH500 wireless stereo headset (Nordic reference guide)", "category": "audio", "relevant": "no", "edge": false, "note": ""}
+{"id": "d033", "product": "LBT-D105 compact hi-fi stereo system (receiver/cassette, turntable, speakers)", "category": "audio", "relevant": "no", "edge": false, "note": ""}
+{"id": "d034", "product": "WLL-CA50/CA55/RX55 wireless camera transmission system introduction", "category": "broadcast_video_other", "relevant": "yes", "edge": false, "note": "Wireless video link for broadcast camcorders/cameras"}
+{"id": "d035", "product": "PMW-200/PMW-EX280 solid-state memory camcorders (technical bulletin, outside panel)", "category": "video_camera", "relevant": "yes", "edge": true, "note": "Memory camcorders, no tape"}
+{"id": "d036", "product": "SEL20F18G FE 20mm F1.8 G E-mount lens", "category": "still_camera", "relevant": "no", "edge": false, "note": ""}
+{"id": "d037", "product": "Xperia C4 Dual E5343 smartphone user guide (Portuguese)", "category": "computer", "relevant": "no", "edge": false, "note": ""}
+{"id": "d038", "product": "SDM-S74/S94 TFT LCD computer monitors (Spanish)", "category": "flat_panel_or_projection", "relevant": "no", "edge": false, "note": ""}
+{"id": "d039", "product": "CDX-GT10M marine/car CD player installation", "category": "other_product", "relevant": "no", "edge": false, "note": "Car/marine audio"}
+{"id": "d040", "product": "PXW-FS7/FS7K solid-state memory camcorder (technical bulletin, HDMI audio)", "category": "video_camera", "relevant": "yes", "edge": true, "note": "Memory camcorder, no tape"}
+{"id": "d041", "product": "LCD Television limited warranty (US)", "category": "not_product_doc", "relevant": "no", "edge": false, "note": "Warranty only, for LCD TVs"}
+{"id": "d042", "product": "MFS-2000 multi-format switcher maintenance manual, DIO-78 board layout", "category": "broadcast_video_other", "relevant": "yes", "edge": true, "note": "Text is only component designators; product known only from PATH; digital switcher"}
+{"id": "d043", "product": "NW-WS413/WS414 Walkman sports headphone player", "category": "audio", "relevant": "no", "edge": false, "note": ""}
+{"id": "d044", "product": "MSDW-904 analog composite input board for MSW-900/900P MPEG IMX VTR", "category": "video_deck", "relevant": "yes", "edge": true, "note": "Option board installed in a VTR rather than the VTR itself"}
+{"id": "d045", "product": "Tony Brock: Rock Drummer loop library software (LLTBRD1000)", "category": "other_product", "relevant": "no", "edge": false, "note": "Music software"}
+{"id": "d046", "product": "Xperia Touch interactive projector troubleshooting", "category": "flat_panel_or_projection", "relevant": "no", "edge": false, "note": ""}
+{"id": "d047", "product": "ICD-P320 IC recorder (Korean)", "category": "audio", "relevant": "no", "edge": false, "note": ""}
+{"id": "d048", "product": "WM-GX410 Walkman radio cassette-corder", "category": "audio", "relevant": "no", "edge": false, "note": ""}
+{"id": "d049", "product": "HDR-SR11E/SR12E HDD Handycam HD camcorder handbook", "category": "video_camera", "relevant": "yes", "edge": true, "note": "HDD camcorder, no tape"}

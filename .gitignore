@@ -1,0 +1,29 @@
+# Allow-list: ignore everything, then un-ignore only what we publish.
+# This folder also holds the PDFs, text, the database, logs, browser profiles and secrets (.env).
+*
+!.gitignore
+!.env.example
+!README.md
+!LICENSE
+!requirements.txt
+!sonyarc.py
+!salvage.py
+!classify.py
+!label.py
+!review_fixes.py
+!data/
+!data/recovered.csv
+!data/truncated_pdfs.csv
+!live/
+!live/fetch_live.py
+!live/probe.py
+!jev_eval/
+!jev_eval/README.md
+!jev_eval/LABELING.md
+!jev_eval/make_sample.py
+!jev_eval/run_eval.py
+!jev_eval/score.py
+!jev_eval/sample.jsonl
+!jev_eval/results.jsonl
+!jev_eval/labels/
+!jev_eval/labels/*.jsonl

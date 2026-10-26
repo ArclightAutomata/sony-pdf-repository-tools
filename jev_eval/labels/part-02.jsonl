@@ -1,0 +1,50 @@
+{"id": "d100", "product": "CDX-GT29/CDX-GT25 car CD receiver (Romanian manual)", "category": "other_product", "relevant": "no", "edge": false, "note": "car audio"}
+{"id": "d101", "product": "HZS-7060 operation software for HDS-7100 HD digital video switcher", "category": "broadcast_video_other", "relevant": "yes", "edge": true, "note": "digital HD production switcher software guide"}
+{"id": "d102", "product": "Aiwa CA-DW630 portable CD/dual cassette stereo", "category": "audio", "relevant": "no", "edge": false, "note": "Aiwa-branded boombox; model from path"}
+{"id": "d103", "product": "Sony EULA for software/Sony Entertainment Network (Spanish)", "category": "not_product_doc", "relevant": "no", "edge": false, "note": "generic license agreement, no model named"}
+{"id": "d104", "product": "MHC-EC919iP/EC719iP home audio system", "category": "audio", "relevant": "no", "edge": false, "note": ""}
+{"id": "d105", "product": "VAIO VGX-XL2A media center PC safety information", "category": "computer", "relevant": "no", "edge": false, "note": ""}
+{"id": "d106", "product": "CMT-V11iP personal audio system (Dutch)", "category": "audio", "relevant": "no", "edge": false, "note": ""}
+{"id": "d107", "product": "LMD-PS2030/PS2050/PS2450 protective covers for LUMA LCD monitors", "category": "other_product", "relevant": "no", "edge": false, "note": "accessory for LCD pro monitors"}
+{"id": "d108", "product": "FCB-H11 HD color block camera", "category": "video_camera", "relevant": "yes", "edge": false, "note": "OEM/CCTV block camera module"}
+{"id": "d109", "product": "LMD-2050W/LMD-2450W/LMD-2450MD LCD monitor technical bulletin", "category": "flat_panel_or_projection", "relevant": "no", "edge": false, "note": "LCD pro video monitors"}
+{"id": "d110", "product": "HDW-2000/DVW-2000/MSW-2000/SRW-5000 series VTRs reel table bulletin", "category": "video_deck", "relevant": "yes", "edge": false, "note": "also lists DIR-240/GY-8240 data recorders; text readable despite garbage flag"}
+{"id": "d111", "product": "KLV-46V200A/40V200A/32V200A LCD TV", "category": "flat_panel_or_projection", "relevant": "no", "edge": false, "note": ""}
+{"id": "d112", "product": "SU-GW3 TV stand addendum (safety lock)", "category": "other_product", "relevant": "no", "edge": true, "note": "TV stand accessory; text does not say which TV (likely Grand WEGA, not CRT); model only in path"}
+{"id": "d113", "product": "FWD-series public display reseller rebate program", "category": "not_product_doc", "relevant": "no", "edge": false, "note": "marketing program for flat panel public displays"}
+{"id": "d114", "product": "VAIO recovery, backup and troubleshooting guide", "category": "computer", "relevant": "no", "edge": false, "note": ""}
+{"id": "d115", "product": "M-673V microcassette voice recorder", "category": "audio", "relevant": "no", "edge": false, "note": ""}
+{"id": "d116", "product": "VAIO computer safety/regulatory flyer", "category": "computer", "relevant": "no", "edge": false, "note": ""}
+{"id": "d117", "product": "Konica Minolta DiMAGE Z20 digital camera", "category": "still_camera", "relevant": "no", "edge": false, "note": ""}
+{"id": "d118", "product": "XAV-722 car AV center", "category": "other_product", "relevant": "no", "edge": false, "note": "car audio/video head unit"}
+{"id": "d119", "product": "KD-55X8200E/X8000E series BRAVIA LCD TV", "category": "flat_panel_or_projection", "relevant": "no", "edge": false, "note": ""}
+{"id": "d120", "product": "ICD-UX60/UX70/UX80 IC recorder quick start", "category": "audio", "relevant": "no", "edge": false, "note": ""}
+{"id": "d121", "product": "DVW-500/DVW-A500 Digital Betacam VTR with BKDW-515 control panel", "category": "video_deck", "relevant": "yes", "edge": false, "note": ""}
+{"id": "d122", "product": "MDP-1100 industrial LaserDisc player bulletin", "category": "disc_or_media_player", "relevant": "no", "edge": true, "note": "professional videodisc player in Video Products line; not tape"}
+{"id": "d123", "product": "VGN-SR410J/H VAIO notebook", "category": "computer", "relevant": "no", "edge": false, "note": ""}
+{"id": "d124", "product": "PCG-GR series VAIO notebook software guide", "category": "computer", "relevant": "no", "edge": false, "note": ""}
+{"id": "d125", "product": "DNW-65/75/A65/A75 Betacam SX VTR software upgrade", "category": "video_deck", "relevant": "yes", "edge": false, "note": ""}
+{"id": "d126", "product": "DPF-D75/D85/D95/E75 digital photo frame", "category": "other_product", "relevant": "no", "edge": false, "note": ""}
+{"id": "d127", "product": "VGN-NR298DS VAIO notebook", "category": "computer", "relevant": "no", "edge": false, "note": ""}
+{"id": "d128", "product": "D-CJ501 portable CD player", "category": "audio", "relevant": "no", "edge": false, "note": ""}
+{"id": "d129", "product": "WI-H700 wireless headphones (Vietnamese)", "category": "audio", "relevant": "no", "edge": false, "note": ""}
+{"id": "d130", "product": "CDX-GT310/CDX-GT31W car CD player installation", "category": "other_product", "relevant": "no", "edge": false, "note": "car audio"}
+{"id": "d131", "product": "XS-F694R/XS-F693R car speakers", "category": "other_product", "relevant": "no", "edge": false, "note": "car audio"}
+{"id": "d132", "product": "ILCA-68 interchangeable lens digital camera help guide", "category": "still_camera", "relevant": "no", "edge": false, "note": ""}
+{"id": "d133", "product": "PVM-9L2/PVM-9L3 professional video monitor tally bulletin", "category": "crt_monitor", "relevant": "yes", "edge": false, "note": "PVM-9L2/9L3 are 8-inch Trinitron CRT monitors (from model knowledge; text does not say CRT)"}
+{"id": "d134", "product": "MSG-32A/64A/128A MagicGate Memory Stick", "category": "other_product", "relevant": "no", "edge": false, "note": ""}
+{"id": "d135", "product": "SLV-D281P DVD player/VHS VCR combo", "category": "video_deck", "relevant": "yes", "edge": true, "note": "DVD/VCR combo; VHS deck built in"}
+{"id": "d136", "product": "XVS-8000/7000/6000 4K/IP production switcher brochure", "category": "broadcast_video_other", "relevant": "yes", "edge": true, "note": "modern digital 4K/IP switcher"}
+{"id": "d137", "product": "UP-DF500/UP-DF550 dry film printer bulletin", "category": "other_product", "relevant": "no", "edge": true, "note": "medical film imager filed under Video Products still image printer; could be argued as video printer"}
+{"id": "d138", "product": "Sony PC Fax-on-Demand index (VAIO PCV/PCG)", "category": "computer", "relevant": "no", "edge": false, "note": ""}
+{"id": "d139", "product": "CDX-GT117X/CDX-GT161S car CD receiver (Portuguese)", "category": "other_product", "relevant": "no", "edge": false, "note": "car audio"}
+{"id": "d140", "product": "PVM-14L5/PVM-20L5 professional video monitor V jitter bulletin", "category": "crt_monitor", "relevant": "yes", "edge": false, "note": "PVM-14L5/20L5 are CRT monitors; D1 deflection board"}
+{"id": "d141", "product": "BDX-D1000 MPEG decoder (with BDX-E1000 encoder) manual update", "category": "broadcast_video_other", "relevant": "yes", "edge": true, "note": "broadcast digital video encoder/decoder peripheral"}
+{"id": "d142", "product": "VAIO VPCSA/VPCSB series user guide (Turkish)", "category": "computer", "relevant": "no", "edge": false, "note": ""}
+{"id": "d143", "product": "FWD-S55H2 55in LED LCD public display", "category": "flat_panel_or_projection", "relevant": "no", "edge": false, "note": ""}
+{"id": "d144", "product": "KV-32FS17 32in Trinitron TV rear/side dimension diagram", "category": "crt_tv", "relevant": "yes", "edge": false, "note": ""}
+{"id": "d145", "product": "AIT tape storage DMR sales SPIFF promotion", "category": "not_product_doc", "relevant": "no", "edge": false, "note": "sales incentive program for data tape storage products"}
+{"id": "d146", "product": "GY-2120WD/2120WS DTF digital information recorder", "category": "other_product", "relevant": "no", "edge": true, "note": "data tape recorder from Broadcast Products Company; not a video recorder"}
+{"id": "d147", "product": "PMW-EX3 XDCAM EX full HD camcorder", "category": "video_camera", "relevant": "yes", "edge": true, "note": "tapeless SxS memory card camcorder"}
+{"id": "d148", "product": "HKSP-R80/R81 routing switcher controller/backup CPU for PFV-SP", "category": "broadcast_video_other", "relevant": "yes", "edge": true, "note": "digital routing switcher control board"}
+{"id": "d149", "product": "CN-1952 board schematic for HDC-F950 HD camera", "category": "video_camera", "relevant": "yes", "edge": false, "note": "camera model only from path; text is schematic fragment with VIDEO/RCP signals"}
