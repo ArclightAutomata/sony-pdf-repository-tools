@@ -11,6 +11,7 @@
 !classify.py
 !label.py
 !review_fixes.py
+!upload_ia.py
 !data/
 !data/recovered.csv
 !data/truncated_pdfs.csv

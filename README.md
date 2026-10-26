@@ -99,6 +99,7 @@ All state lives in a SQLite database (`sony.db`), next to a content-addressed fi
 | classify | `python3 classify.py` | ask [Jev](https://typesafe.ai) whether each PDF is EveryCRT-relevant, using the filename plus the first 2,000 characters |
 | label | `python3 label.py [--pool ...] [--recovered]` | label the relevant ones with a local LLM: document type, product kind, title, models covered (see below) |
 | review | `python3 review_fixes.py` | apply the scope rulings and hand-review corrections to the labels |
+| upload | `python3 upload_ia.py plan`, then `upload` | upload each in-scope document to archive.org as its own item (see below) |
 
 Every step can resume: re-running it skips work that's already done. Each script's docstring lists
 its options.
@@ -174,12 +175,42 @@ Use rows whose `product_kind` is in scope and whose `scope_override` is not `out
 documents: about 5,200 other broadcast video, 4,500 video decks, 2,500 cameras, 980 CRT TVs, 950 CRT
 monitors, 300 DVD recorders, 220 data tape and 80 remotes.
 
+### Uploading to archive.org
+
+`upload_ia.py` uploads every in-scope document as its own archive.org item, named
+`sony-pdf-repository-<first 12 hex digits of the dump file's SHA-1>`. When the dump's copy was cut off and
+we found the full file, the full file is uploaded, but the identifier still uses the dump file's SHA-1, so
+each item maps back to the dump. Documents already on the EveryCRT wiki or in salli-cat (`dup_of`) are
+skipped. Files still cut off are uploaded with an "Incomplete" note and an `incomplete` subject.
+
+Each item's metadata is built from the labels:
+
+| Field | Value |
+|---|---|
+| `title` | `labels.title`, for example "Sony KV-28DS60U, KV-32DS60U operating instructions" |
+| `mediatype`, `creator` | `texts`, `Sony` |
+| `language` | `labels.language` as a MARC code (`eng`, `jpn`, ...) |
+| `subject` | Sony, the document type, the product kind, `sony-pdf-repository`, and up to 50 model codes |
+| `description` | a generated summary: the models covered, the printed title, where the file sits in the dump and, for full copies, where it was downloaded from. It never quotes the manual. |
+| `source` | the dump item, or the sony.com or Wayback URL of a full copy |
+| `external-identifier` | `urn:sha1:` and `urn:md5:` of the uploaded file, plus `urn:original-sha1:` of the dump's copy for full copies |
+| `scanner` | this repository and the commit it ran from |
+
+The file keeps its name from the dump. Web-scraped PDFs saved as `<folder>/index.html` are named after
+the folder.
+
+`plan` prints this metadata without uploading anything. `upload` refuses to run until the code is
+committed and pushed, so `scanner` always names a published commit. It records each item in the
+`ia_uploads` table (`uploaded`, `exists` or `failed`, with the metadata sent), and skips items already
+done. `status` shows the counts.
+
 ## Setup
 
 - Python 3.11+. `sonyarc.py` and `classify.py` use only the standard library.
 - System tools: `ocrmypdf`, `tesseract` with English data, poppler (`pdftotext`, `pdfinfo`), `qpdf`, and
   `pikepdf` for `SALVAGE_PYTHON`, which defaults to `/usr/bin/python3`.
 - Live re-download: `pip install -r requirements.txt` (patchright), Google Chrome, and `Xvfb`.
+- Uploading: `internetarchive` (also in `requirements.txt`), with credentials from `ia configure`.
 - Copy `.env.example` to `.env` and fill in what you need:
 
 | Variable | Used by |

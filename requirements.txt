@@ -1,3 +1,5 @@
-# Only needed for the live sony.com re-download (live/fetch_live.py, live/probe.py).
-# The rest of the pipeline uses the standard library plus the system tools listed in README.md.
+# The pipeline mostly uses the standard library plus the system tools listed in README.md.
+# The live sony.com re-download (live/fetch_live.py, live/probe.py):
 patchright>=1.63
+# Uploading to archive.org (upload_ia.py):
+internetarchive>=5.0
