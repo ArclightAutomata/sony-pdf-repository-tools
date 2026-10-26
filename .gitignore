@@ -12,6 +12,7 @@
 !label.py
 !review_fixes.py
 !upload_ia.py
+!wiki_docs.py
 !data/
 !data/recovered.csv
 !data/truncated_pdfs.csv

@@ -210,6 +210,8 @@ def main():
     ap.add_argument("--sha1", nargs="*", help="only these dump or label SHA-1 prefixes")
     ap.add_argument("--out", help="plan: write the JSON here instead of stdout")
     ap.add_argument("--workers", type=int, default=2)
+    ap.add_argument("--linked", action="store_true",
+                    help="only docs that link to an existing wiki page (wiki_links, from wiki_docs.py match)")
     a = ap.parse_args()
 
     db = sqlite3.connect(ROOT / "sony.db", timeout=900, check_same_thread=False)
@@ -230,7 +232,12 @@ def main():
     scanner = f"sony-pdf-repository-tools ({REPO_URL})" + (f" @ {commit}" if commit else "")
     rec = recovered_sources()
     done = {i for i, in db.execute("SELECT identifier FROM ia_uploads WHERE status != 'failed'")}
-    items = [build(db, d, rec, scanner) for d in rows(db, a.sha1)]
+    todo = rows(db, a.sha1)
+    if a.linked:
+        linked = {s for s, c, v, x in db.execute("SELECT sha1, crt_models, av_devices, accessories FROM wiki_links")
+                  if any(json.loads(j or "[]") for j in (c, v, x))}
+        todo = [d for d in todo if d["sha1"] in linked]
+    items = [build(db, d, rec, scanner) for d in todo]
     if a.cmd == "upload":
         items = [i for i in items if i["identifier"] not in done]
     items = items[: a.limit or None]

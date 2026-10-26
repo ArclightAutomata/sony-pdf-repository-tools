@@ -100,6 +100,7 @@ All state lives in a SQLite database (`sony.db`), next to a content-addressed fi
 | label | `python3 label.py [--pool ...] [--recovered]` | label the relevant ones with a local LLM: document type, product kind, title, models covered (see below) |
 | review | `python3 review_fixes.py` | apply the scope rulings and hand-review corrections to the labels |
 | upload | `python3 upload_ia.py plan`, then `upload` | upload each in-scope document to archive.org as its own item (see below) |
+| wiki | `python3 wiki_docs.py match`, then `pages` | match documents to existing EveryCRT wiki pages and create a `Document:` page for each uploaded one |
 
 Every step can resume: re-running it skips work that's already done. Each script's docstring lists
 its options.
@@ -203,6 +204,18 @@ the folder.
 committed and pushed, so `scanner` always names a published commit. It records each item in the
 `ia_uploads` table (`uploaded`, `exists` or `failed`, with the metadata sent), and skips items already
 done. `status` shows the counts.
+
+### Wiki Document pages
+
+`wiki_docs.py match` re-matches each document's models to the wiki's current Sony pages and stores the
+links, split into CRT models, AV devices and accessories, in `wiki_links`. For now only documents that
+link to at least one existing page are uploaded (`upload_ia.py upload --linked`) and get a page; the rest
+wait until their model pages exist.
+
+`wiki_docs.py pages` creates a `Document:` page for each uploaded, linked document, named like
+`Document:Sony KV-28DS60U KV-32DS60U User manual`, with `url=` pointing at the archive.org item, `sha1=`
+of the uploaded file and `original_sha1=` of the dump's copy for full copies. It skips documents whose
+SHA-1 is already on a wiki Document and records each result in `wiki_docs`.
 
 ## Setup
 
