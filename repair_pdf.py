@@ -30,8 +30,8 @@ TOOLS = {
              "page content unchanged)"),
     "pdftk": (lambda i, o: ["pdftk", i, "output", o], ["pdftk", "--version"],
               "rewrote the file with pdftk (rebuilt the file structure; page content unchanged)"),
-    "mutool": (lambda i, o: ["mutool", "clean", "-gg", i, o], ["mutool", "-v"],
-               "rewrote the file with mutool clean (garbage-collected and renumbered objects; "
+    "mutool": (lambda i, o: ["mutool", "clean", "-gg", "-s", i, o], ["mutool", "-v"],
+               "rewrote the file with mutool clean (renumbered objects and rewrote each page's drawing instructions; "
                "page content unchanged)"),
     "gs": (lambda i, o: ["gs", "-q", "-dNOPAUSE", "-dBATCH", "-sDEVICE=pdfwrite", "-dPDFSETTINGS=/default",
                          "-dAutoRotatePages=/None", "-dPassThroughJPEGImages=true", f"-sOutputFile={o}", i],
