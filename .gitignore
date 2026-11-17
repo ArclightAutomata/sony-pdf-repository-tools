@@ -12,6 +12,7 @@
 !label.py
 !review_fixes.py
 !upload_ia.py
+!repair_pdf.py
 !wiki_docs.py
 !data/
 !data/recovered.csv

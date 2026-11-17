@@ -113,6 +113,15 @@ def models_phrase(models):
     return ", ".join(models[:MAX_DESC_MODELS]) + f" and {len(models) - MAX_DESC_MODELS} other models"
 
 
+def repaired(db, sha1):
+    """The repaired variant of a file archive.org rejected (repair_pdf.py), or None."""
+    r = db.execute("SELECT b.sha1, b.md5, b.file_path, v.params FROM file_variants v "
+                   "JOIN blobs b ON b.sha1 = v.variant_sha1 "
+                   "WHERE v.original_sha1 = ? AND v.variant_type = 'repaired' AND v.status = 'done'",
+                   (sha1,)).fetchone()
+    return dict(sha1=r[0], md5=r[1], file_path=r[2], params=json.loads(r[3] or "{}")) if r else None
+
+
 def build(db, d, rec, scanner):
     models = json.loads(d["models"] or "[]")
     paths = dump_paths(db, d["dump_sha1"])
@@ -148,6 +157,12 @@ def build(db, d, rec, scanner):
             where = "the Wayback Machine" if "web.archive.org" in url else "sony.com"
             desc.append(f"The dump's copy is cut off at 1 MiB; this is the complete file, downloaded from "
                         f'<a href="{url}">{where}</a>.')
+    rep = repaired(db, d["sha1"])
+    if rep:
+        if rep["params"].get("note"):
+            desc.append(rep["params"]["note"])
+        if rep["params"].get("source_url"):
+            source = rep["params"]["source_url"]
     desc.append(f'Catalogued for the <a href="https://wiki.everycrt.com">EveryCRT wiki</a> with '
                 f'<a href="{REPO_URL}">sony-pdf-repository-tools</a>.')
 
@@ -161,6 +176,12 @@ def build(db, d, rec, scanner):
     ext = [f"urn:sha1:{d['sha1']}"] + ([f"urn:md5:{d['md5']}"] if d["md5"] else [])
     if recovered:
         ext.append(f"urn:original-sha1:{d['dump_sha1']}")
+    local_file = ROOT / d["file_path"]
+    if rep:  # upload the repaired file; the labeled file's checksums become the originals
+        ext = [f"urn:sha1:{rep['sha1']}", f"urn:md5:{rep['md5']}", f"urn:original-sha1:{d['dump_sha1']}"]
+        if d["sha1"] != d["dump_sha1"]:
+            ext.append(f"urn:original-sha1:{d['sha1']}")
+        local_file = ROOT / rep["file_path"]
 
     md = {"mediatype": "texts", "title": xml_safe(title), "creator": "Sony",
           "subject": [xml_safe(s) for s in dict.fromkeys(subjects)],
@@ -169,7 +190,7 @@ def build(db, d, rec, scanner):
     if d["language"] in LANG:
         md["language"] = LANG[d["language"]]
     return {"identifier": PREFIX + d["dump_sha1"][:12], "remote_name": remote_name(paths, d["dump_sha1"]),
-            "local_file": str(ROOT / d["file_path"]), "label_sha1": d["sha1"], "dump_sha1": d["dump_sha1"],
+            "local_file": str(local_file), "label_sha1": d["sha1"], "dump_sha1": d["dump_sha1"],
             "metadata": md}
 
 
